@@ -1,0 +1,319 @@
+.main-header {
+    background-image: url(../images/main-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 11;
+}
+.overlay{
+    position: absolute !important;
+      background: #27272c;
+      height: 100%;
+      width: 100%;
+      opacity: 0.9;
+      top: 0%;
+      left: 0;
+}
+  .navigation-bar a{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+
+}
+ .navigation-bar  .active>.nav-link {
+    color: #e9a438 !important;
+}
+ .navigation-bar a.nav-link:hover {
+    color: #e9a438 !important;
+
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.main-img img {
+    width: 550px;
+    height: 100%;
+    
+}
+.row-mar {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-header .img-text {
+    margin-top: 18px;
+}
+.main-header .img-text h2 {
+    font-family: "Yeseva One";
+    font-weight: 400;
+    color: #e58f00;
+    font-size: 67px;
+   
+}
+.main-header .img-para p {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Yeseva One";
+}
+.main-header .button {
+    margin-top: 40px;
+}
+.btn1 {
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    padding: 11px 20px;
+    border: 1px #000;
+    border-radius: 4px;
+    background: #e58f00;
+}
+.main-header .btn1:hover {
+color: #ffffff;
+background: #000;
+text-decoration: none;
+} 
+.mob-cls {
+    display: none !important;
+}
+.navigation-bar { 
+    display: block !important;
+}
+.about-sec {
+    background-color: #1d1d23;
+}
+.about-sec .abt-img img {
+    height: auto;
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.about-sec .abt-text h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "yeseva one";
+    position: relative;
+    top: 126px;
+    color: white;
+}
+.about-sec .abt-para {
+    font-size: 24px;
+    font-family: "yeseva one";
+    position: relative;
+    top: 133px;
+    color: white;
+}
+
+.image-box {
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 540px;
+  }
+.image-box img {
+    max-width: 100%;
+    transition: all 0.2s;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .image-box:hover img {
+    transform: scale(1.03);
+  }
+.gallary-sec {
+    padding-bottom: 50px;
+    background-color: #1d1d23;
+}
+.gallary-sec .gall-text h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "yeseva one";
+    color: #ffffff;
+   
+    text-align: center;
+}
+.known-sec {
+    background-image: url(../images/known-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 150px 0;
+}
+.known-sec .known-text h2{
+    font-size: 50px;
+    font-family: "yeseva one";
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.known-sec .known-para p{
+    font-size: 30px;
+    font-family: "yeseva one";
+    color: #ffffff;
+    text-align: center;
+}
+.known-sec .bob {
+    background: #1d1d23;
+    padding: 28px 28px;
+    border: 8px solid #e9a438;
+
+}
+.meal-sec {
+    background: #e58f00;
+    height: 400px;
+   
+}
+.meal-sec .meal-img img {
+    width: 500px;
+    transform: translateY(-51px);
+}
+.meal-sec .meal-text h2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "yeseva one";
+    color: #ffffff;
+    margin-top: 78px;
+
+}
+.meal-sec .meal-para p{
+    font-size: 26px;
+    font-family: "yeseva one";
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+.footer-sec {
+    background: #35353b;
+}
+.footer-sec ul {
+    list-style-type: none;   
+}
+.footer-sec ul li{
+    display: inline-block;
+    padding: 30px 15px 5px;
+}
+
+.footer-sec ul li a {
+    font-weight: bold;
+    font-size: 21px;
+    color: #e7e6e6;
+}
+.footer-sec ul li a:hover {
+    color: #e58f00;
+    text-decoration: none;
+}
+.foot-social ul {
+    list-style-type: none;     
+}
+.foot-social ul li{
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    padding: 30px 5px 5px;
+}
+.foot-social ul li a {
+    color: #dab33e;
+}
+.foot-social ul li a:hover {
+    text-decoration: none;
+}
+.footer-sec {
+    padding: 40px 0;
+}
+.header-mobi{
+    position: absolute;
+    z-index: 1199;
+    top: 2px;
+    width: 20%;
+    right: 0;
+}
+.header-mobi-2{
+    background: #000;
+    width: 80%;
+}
+.header-mobi i{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 30px;
+    cursor:  pointer !important;
+
+}
+.header-mobi {
+    display: none;
+}
+.header-mobi ul{
+    padding: 0 !important;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.header-mobi ul li{
+    display:block;
+    list-style-type: none;
+    padding: 5px 10px;
+    text-align: center;
+
+}
+.header-mobi ul li a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.header-mobi ul li a:hover {
+    text-decoration: none !important;
+}
+.header-mobi ul li .active {
+    color: #dab33e;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav-mobi{
+    display: none;
+}
+.fa-times{
+    position: absolute;
+    right: 7px;
+    top: 0;
+}
+.footer-sec .foot-social img:hover {
+    color:#000;
+    background: #e58f00;
+    border-radius: 50%;
+}
+
+@media (max-width:570px) {
+    .footer-sec ul{
+        padding: 0px !important;
+    }
+    .ul-1{
+        margin-top: 20px;
+    }
+    .ul-1 li{
+        display: inline-block !important;
+    padding: 5px 10px !important;
+    }
+    .ul-1 li a{
+        font-size: 15px !important;
+        font-weight: normal !important;
+    }
+    .ul-2{
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+    }
+    .ul-2 li{
+        display: inline-block !important;
+    padding: 5px 10px !important;
+    }
+    .ul-2 img{
+        width: 40px !important;
+    }
+}
